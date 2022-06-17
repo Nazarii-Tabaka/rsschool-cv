@@ -1,0 +1,179 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #e0ffff;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blueviolet;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-right: 50px;
+	font-size: 24px;
+}
+
+.avatar {
+	display: block;
+	margin: auto;
+}
+
+.avatar:hover {
+	filter: sepia(1);
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+	color: blueviolet;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 36px;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.contacts li {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 24px;
+}
+
+.contacts li:hover {
+	color: blueviolet;
+}
+
+.about {
+	display: block;
+	margin: auto;
+	padding: 0 20px;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 2;
+}
+
+.about:hover {
+	color: blueviolet;
+}
+
+code {
+	display: block;
+	margin: auto;
+	padding-left: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: darkslategray;
+	width: 400px;
+	font-size: 24px;
+	color: white;
+}
+
+code:hover {
+	color: blueviolet;
+}
+
+.skills {
+	text-align: center;
+}
+
+.skills li {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 24px;
+}
+
+.skills li:hover {
+	color: blueviolet;
+}
+
+.project-image {
+	display: block;
+	margin: auto;
+	filter: grayscale(1);
+}
+
+.project-image:hover {
+	filter: grayscale(0);
+}
+
+.education {
+	text-align: center;
+}
+
+.education li {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 24px;
+}
+
+.education li:hover {
+	color: blueviolet;
+}
+
+.languages {
+	text-align: center;
+}
+
+.languages li {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 24px;
+}
+
+.languages li:hover {
+	color: blueviolet;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer li {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 24px;
+}
+
+footer li:hover {
+	color: blueviolet;
+}
