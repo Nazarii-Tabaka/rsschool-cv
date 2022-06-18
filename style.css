@@ -7,7 +7,6 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	border-style: dashed;
 }
 
 a {
@@ -63,10 +62,8 @@ h1 {
 
 h2 {
 	margin-top: 80px;
-	padding-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	font-size: 36px;
-	border-top-style: dashed;
 }
 
 .contacts {
@@ -178,6 +175,7 @@ code span:nth-child(8) {
 
 footer {
 	text-align: center;
+	margin-top: 50px;
 }
 
 footer li {
