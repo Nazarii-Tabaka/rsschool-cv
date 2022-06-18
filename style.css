@@ -1,6 +1,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #e0ffff;
+	font-size: 24px;
 }
 
 .container {
@@ -16,10 +17,12 @@ a {
 
 a:hover {
 	color: blueviolet;
+	text-decoration: underline;
 }
 
 li {
 	list-style: none;
+	font-weight: bold;
 }
 
 header {
@@ -33,7 +36,7 @@ nav {
 
 nav li {
 	display: inline;
-	margin-right: 50px;
+	margin-right: 40px;
 	font-size: 24px;
 }
 
@@ -75,19 +78,19 @@ h2 {
 .contacts li {
 	display: inline-block;
 	margin-right: 60px;
-	font-size: 24px;
 }
 
 .contacts li:hover {
 	color: blueviolet;
+	text-decoration: underline;
 }
 
 .about {
 	display: block;
 	margin: auto;
-	padding: 0 20px;
-	font-size: 24px;
+	padding: 0 70px;
 	font-style: italic;
+	font-weight: bold;
 	line-height: 2;
 }
 
@@ -103,7 +106,6 @@ code {
 	padding-bottom: 40px;
 	background-color: darkslategray;
 	width: 400px;
-	font-size: 24px;
 	color: white;
 }
 
@@ -118,7 +120,6 @@ code:hover {
 .skills li {
 	display: inline-block;
 	margin-right: 60px;
-	font-size: 24px;
 }
 
 .skills li:hover {
@@ -142,7 +143,6 @@ code:hover {
 .education li {
 	display: inline-block;
 	margin-right: 60px;
-	font-size: 24px;
 }
 
 .education li:hover {
@@ -156,7 +156,6 @@ code:hover {
 .languages li {
 	display: inline-block;
 	margin-right: 60px;
-	font-size: 24px;
 }
 
 .languages li:hover {
@@ -170,8 +169,11 @@ footer {
 
 footer li {
 	display: inline-block;
-	margin-right: 60px;
-	font-size: 24px;
+}
+
+footer li:nth-child(1),
+footer li:nth-child(2) {
+	margin-right: 450px;
 }
 
 footer li:hover {
