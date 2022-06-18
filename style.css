@@ -7,7 +7,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 15px;
+	border-style: dashed;
 }
 
 a {
@@ -16,18 +16,13 @@ a {
 }
 
 a:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 	text-decoration: underline;
 }
 
 li {
 	list-style: none;
 	font-weight: bold;
-}
-
-header {
-	margin-bottom: 50px;
-	padding-top: 20px;
 }
 
 nav {
@@ -43,6 +38,7 @@ nav li {
 .avatar {
 	display: block;
 	margin: auto;
+	padding-top: 30px;
 }
 
 .avatar:hover {
@@ -58,17 +54,19 @@ h3 {
 h1:hover,
 h2:hover,
 h3:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
 
 h1 {
-	font-size: 42px;
+	font-size: 52px;
 }
 
 h2 {
 	margin-top: 80px;
-	margin-bottom: 80px;
+	padding-top: 30px;
+	margin-bottom: 50px;
 	font-size: 36px;
+	border-top-style: dashed;
 }
 
 .contacts {
@@ -81,21 +79,21 @@ h2 {
 }
 
 .contacts li:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 	text-decoration: underline;
 }
 
 .about {
 	display: block;
 	margin: auto;
-	padding: 0 70px;
+	margin: 0 160px;
 	font-style: italic;
 	font-weight: bold;
 	line-height: 2;
 }
 
 .about:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
 
 code {
@@ -104,13 +102,29 @@ code {
 	padding-left: 80px;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: darkslategray;
+	background-color: #131414;
 	width: 400px;
 	color: white;
 }
 
-code:hover {
-	color: blueviolet;
+code span:nth-child(1),
+code span:nth-child(5) {
+	color: #b294bb;
+}
+
+code span:nth-child(2),
+code span:nth-child(3),
+code span:nth-child(4) {
+	color: #de935f;
+}
+
+code span:nth-child(6),
+code span:nth-child(7) {
+	color: #89b6c5;
+}
+
+code span:nth-child(8) {
+	display: block;
 }
 
 .skills {
@@ -123,7 +137,7 @@ code:hover {
 }
 
 .skills li:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
 
 .project-image {
@@ -146,7 +160,7 @@ code:hover {
 }
 
 .education li:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
 
 .languages {
@@ -159,12 +173,11 @@ code:hover {
 }
 
 .languages li:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
 
 footer {
 	text-align: center;
-	margin-top: 50px;
 }
 
 footer li {
@@ -173,9 +186,9 @@ footer li {
 
 footer li:nth-child(1),
 footer li:nth-child(2) {
-	margin-right: 450px;
+	margin-right: 400px;
 }
 
 footer li:hover {
-	color: blueviolet;
+	color: rgb(223, 151, 18);
 }
